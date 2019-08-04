@@ -1,0 +1,16 @@
+{
+  "name": "mongofun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check": "([ ! -d \"$PWD/node_modules\" ]) && (echo \"node_modules not found, exiting...\") || echo \"node_modules present\"",
+    "zip_me": "(rm function.zip || echo \"no file, continuing\") &&  zip -r function.zip ./*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongo": "0.1.0"
+  }
+}

@@ -1,0 +1,5 @@
+# Foolishly check-in node_modules "just this once"
+# node_modules/
+
+# System
+.DS_Store
