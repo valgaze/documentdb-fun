@@ -11,7 +11,10 @@ exports.handler = async (event, context) => {
         try {
             data = JSON.parse(event.body);
         } catch(e) { 
-            
+            return {
+                statusCode: 400,
+                body: JSON.stringify({message: 'There was an error parsing the JSON data posted to this endpoint', error:e})
+            }
         }
     }
 

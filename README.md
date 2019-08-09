@@ -6,6 +6,9 @@ The Lambda function specified in ```index.js``` is a bare-minimum function for e
 
 See **[here](https://www.youtube.com/playlist?list=PLNBEvJ82PZGxW9vzva5H7OsepryYlUT6D)** for some helper video content
 
+See **[here](./blog_post.md)**  or **[https://dev.to/valgaze/from-zero-to-aws-documentdb-9on](https://dev.to/valgaze/from-zero-to-aws-documentdb-9on)** for a full write up
+
+
 ## Usage
 
 1) Modify ```CONNECTION_STRING``` in ```config.js``` with your DocumentDB cluster's URL & username/password
